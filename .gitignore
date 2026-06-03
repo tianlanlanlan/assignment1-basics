@@ -161,3 +161,14 @@ cython_debug/
 
 .ruff_cache/
 *.zip
+
+# Dataset
+/data/*
+!/data/download.sh
+/cs336_basics/main
+
+# cProfile result
+/*.perf
+
+# Checkpoints
+/checkpoints/
